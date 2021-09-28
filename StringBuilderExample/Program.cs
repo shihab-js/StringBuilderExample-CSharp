@@ -14,6 +14,14 @@ namespace StringBuilderExample
 
             StringBuilder sb = new StringBuilder("Hello World!",50);
 
+            //print string using loop
+            for(int i=0; i<sb.Length; i++)
+            {
+                Console.Write(sb[i]);
+            }
+
+
+
         }
     }
 }
