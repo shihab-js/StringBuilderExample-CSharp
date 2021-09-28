@@ -38,6 +38,10 @@ namespace StringBuilderExample
             sb.Insert(5, " C#");
             Console.WriteLine(sb);
 
+            //Removing string from string builder
+            sb.Remove(15,10);
+            Console.WriteLine(sb);
+
         }
     }
 }
