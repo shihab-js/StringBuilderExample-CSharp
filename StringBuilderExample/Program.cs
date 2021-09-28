@@ -20,6 +20,12 @@ namespace StringBuilderExample
                 Console.Write(sb[i]);
             }
 
+            Console.WriteLine();
+
+            //retrieve string from string builder
+            Console.Write(sb.ToString());
+
+
 
 
         }
