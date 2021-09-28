@@ -32,20 +32,20 @@ namespace StringBuilderExample
             //Added formated string to string builder
             StringBuilder fString = new StringBuilder("Your Total Cost is: ");
             fString.AppendFormat("{0:C} ", 100);
-            Console.WriteLine(fString);
+            Console.WriteLine(fString); // Your Total Cost is: eur 100
 
             //insert string
             sb.Insert(5, " C#");
-            Console.WriteLine(sb);
+            Console.WriteLine(sb); //Hello C# World!Hi, World!
 
             //Removing string from string builder
             sb.Remove(15,10);
-            Console.WriteLine(sb);
+            Console.WriteLine(sb); //Hello C# World!
 
 
             //Replace string in stringbuilder
             sb.Replace("C# ", "");
-            Console.WriteLine(sb);
+            Console.WriteLine(sb); //Hello World!
 
         }
     }
