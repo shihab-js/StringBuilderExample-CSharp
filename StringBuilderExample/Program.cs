@@ -33,6 +33,11 @@ namespace StringBuilderExample
             StringBuilder fString = new StringBuilder("Your Total Cost is: ");
             fString.AppendFormat("{0:C} ", 100);
             Console.WriteLine(fString);
+
+            //insert string
+            sb.Insert(5, " C#");
+            Console.WriteLine(sb);
+
         }
     }
 }
