@@ -29,7 +29,10 @@ namespace StringBuilderExample
             sb.Append("Hi, ");
             sb.AppendLine("World!");
 
-
+            //Added formated string to string builder
+            StringBuilder fString = new StringBuilder("Your Total Cost is: ");
+            fString.AppendFormat("{0:C} ", 100);
+            Console.WriteLine(fString);
         }
     }
 }
