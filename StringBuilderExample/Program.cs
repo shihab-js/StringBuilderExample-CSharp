@@ -25,7 +25,9 @@ namespace StringBuilderExample
             //retrieve string from string builder
             Console.Write(sb.ToString());
 
-
+            //Append String
+            sb.Append("Hi, ");
+            sb.AppendLine("World!");
 
 
         }
