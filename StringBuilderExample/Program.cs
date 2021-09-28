@@ -42,6 +42,11 @@ namespace StringBuilderExample
             sb.Remove(15,10);
             Console.WriteLine(sb);
 
+
+            //Replace string in stringbuilder
+            sb.Replace("C# ", "");
+            Console.WriteLine(sb);
+
         }
     }
 }
